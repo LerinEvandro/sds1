@@ -35,7 +35,7 @@ const PlatformCard = ({
 
 const styles = StyleSheet.create({
     platformCard: {
-      paddingTop: 30,
+      paddingTop: 20,
       paddingBottom: 20,
       width: '30%',
       backgroundColor: '#FFF',
@@ -44,9 +44,9 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
     platformCardText: {
-      marginTop: 40,
+      marginTop: 20,
       color: '#9E9E9E',
-      fontSize: 24,
+      fontSize: 22,
       fontFamily: "Play_700Bold",
       textAlign: 'center'
     },

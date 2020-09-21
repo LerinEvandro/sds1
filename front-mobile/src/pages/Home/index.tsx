@@ -46,19 +46,19 @@ const styles = StyleSheet.create({
       alignItems: 'center',
     },
     gamerImage: {
-      width: 210,
-      height: 195      
+      width: 260,
+      height: 245
     },
     title: {
       color: '#00D4FF',
       fontSize: 36,
       fontWeight: 'bold',
-      marginTop: 31,
+      marginTop: 10,
       fontFamily: "Play_700Bold",
     },
     subTitle: {
       color: '#ED7947',
-      fontSize: 21,
+      fontSize: 18,
       marginTop: 10,
       fontFamily: "Play_400Regular",
     },
@@ -69,24 +69,24 @@ const styles = StyleSheet.create({
     button: {
       backgroundColor: '#00D4FF',
       flexDirection: 'row',
-      borderRadius: 10
+      borderRadius: 20
     },
     buttonIcon: {
       backgroundColor: '#ED7947',
       justifyContent: 'center',
       alignItems: 'center',
-      width: 50,
+      width: 60,
       borderBottomRightRadius: 10,
       borderTopRightRadius: 10
     },
     buttonText: {
-      paddingTop: 10,
-      paddingBottom: 10,
+      paddingTop: 15,
+      paddingBottom: 15,
       paddingLeft: 50,
       paddingRight: 50,
       fontFamily: "Play_700Bold",
       fontWeight: 'bold',
-      fontSize: 18,
+      fontSize: 20,
       color: '#0B1F34',
     }
   });
